@@ -1,68 +1,442 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mike's Cloud Resume</title>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Mike Harris IAM and cloud security portfolio featuring Microsoft Entra ID, AWS, RBAC, identity governance, and cloud projects."
+  >
+
+  <title>Mike Harris | IAM & Cloud Security Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Mike's Cloud Resume</h1>
 
-  <h2>Future Identity & Access Management Engineer</h2>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container">
 
-  <p>
-    Welcome! This website showcases my cloud and Identity & Access Management
-    projects as I transition into cybersecurity.
-  </p>
+      <a class="logo" href="#top">MH</a>
 
-  <p>
-    Visitor Count:
-    <span id="visitor-count">Loading...</span>
-  </p>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-  <p>
-    <a href="Mike_Harris_Cloud_Resume.pdf" target="_blank">
-      View Resume
-    </a>
-  </p>
+    </nav>
+  </header>
 
-  <hr>
 
-  <h2>Projects</h2>
+  <main id="top">
 
-  <div class="project-card">
+    <!-- Hero Section -->
+    <section class="hero">
 
-    <h3>AWS Cloud Resume Challenge</h3>
+      <div class="container hero-content">
 
-    <p>
-      Built a serverless cloud resume website using AWS Amplify, API Gateway,
-      Lambda, DynamoDB, GitHub, and JavaScript.
-    </p>
+        <p class="eyebrow">
+          Identity • Cloud • Governance
+        </p>
 
-  </div>
+        <h1>Mike Harris</h1>
 
-  <div class="project-card">
+        <h2>
+          Identity & Access Management Analyst
+        </h2>
 
-    <h3>Microsoft Entra IAM Lab (In Progress)</h3>
+        <p class="hero-description">
+          Security+ and AWS Certified Cloud Practitioner with more than
+          25 years of enterprise operations, compliance, quality assurance,
+          customer support, and technology experience.
+        </p>
 
-    <p>
-      Building an enterprise Identity and Access Management environment using
-      Microsoft Entra ID.
-    </p>
+        <p class="hero-description">
+          I build practical identity and cloud-security solutions using
+          Microsoft Entra ID, AWS, role-based access control, least privilege,
+          and identity-governance principles.
+        </p>
 
-    <ul>
-      <li>User Lifecycle Management</li>
-      <li>Role-Based Access Control (RBAC)</li>
-      <li>Conditional Access</li>
-      <li>Multi-Factor Authentication</li>
-      <li>Identity Governance</li>
-    </ul>
+        <div class="button-group">
 
-    <p>
-      <strong>Status:</strong> Module 1 in progress
-    </p>
+          <a
+            class="button primary-button"
+            href="Mike_Harris_Cloud_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View IAM Resume
+          </a>
 
-  </div>
+          <a
+            class="button secondary-button"
+            href="https://github.com/mikeharris23"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub
+          </a>
 
+          <a
+            class="button secondary-button"
+            href="https://www.linkedin.com/in/mharris7/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+        <div class="visitor-counter">
+          Portfolio Visits:
+          <span id="visitor-count">Loading...</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+      <div class="container narrow-container">
+
+        <p class="section-label">About Me</p>
+
+        <h2>
+          Enterprise experience applied to modern identity security
+        </h2>
+
+        <p>
+          My professional background combines enterprise technical support,
+          compliance auditing, quality assurance, documentation, customer
+          service, process improvement, and operational risk management.
+        </p>
+
+        <p>
+          I am now applying that experience to Identity and Access Management
+          through hands-on projects involving Microsoft Entra ID, AWS IAM,
+          role-based access control, cloud identity administration, and
+          identity governance.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section alternate-section">
+
+      <div class="container">
+
+        <p class="section-label">Technical Skills</p>
+
+        <h2>
+          Identity, cloud security, governance, and enterprise support
+        </h2>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+
+            <h3>Identity & Access Management</h3>
+
+            <p>
+              Microsoft Entra ID, AWS IAM, RBAC, least privilege,
+              cloud identities, security groups, administrative units,
+              privileged-account separation, authentication, and authorization.
+            </p>
+
+          </article>
+
+
+          <article class="skill-card">
+
+            <h3>Security & Governance</h3>
+
+            <p>
+              Identity governance, Zero Trust, MFA, NIST Cybersecurity
+              Framework, compliance auditing, security controls,
+              access documentation, and risk assessment.
+            </p>
+
+          </article>
+
+
+          <article class="skill-card">
+
+            <h3>Cloud & DevOps</h3>
+
+            <p>
+              AWS Amplify, Lambda, API Gateway, DynamoDB, CloudWatch,
+              GitHub Actions, CI/CD, REST APIs, JSON, JavaScript,
+              and serverless architecture.
+            </p>
+
+          </article>
+
+
+          <article class="skill-card">
+
+            <h3>Enterprise Support</h3>
+
+            <p>
+              Technical troubleshooting, incident resolution, root-cause
+              analysis, user onboarding support, process documentation,
+              customer service, and cross-functional collaboration.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+      <div class="container">
+
+        <p class="section-label">Featured Projects</p>
+
+        <h2>
+          Hands-on cloud and identity security work
+        </h2>
+
+        <div class="projects-grid">
+
+          <!-- AWS Project -->
+          <article class="project-card">
+
+            <div class="project-heading">
+
+              <span class="project-tag">
+                AWS
+              </span>
+
+              <span class="status-badge">
+                Live
+              </span>
+
+            </div>
+
+            <h3>AWS Cloud Resume Challenge</h3>
+
+            <p>
+              Designed and deployed a secure serverless resume and portfolio
+              website using AWS cloud services and GitHub-based deployment.
+            </p>
+
+            <ul>
+              <li>Configured least-privilege AWS IAM roles</li>
+              <li>Implemented an API Gateway and Lambda backend</li>
+              <li>Stored visitor data in DynamoDB</li>
+              <li>Automated deployment using GitHub and AWS Amplify</li>
+              <li>Integrated a real-time website visitor counter</li>
+            </ul>
+
+            <p class="technology-list">
+              <strong>Technologies:</strong>
+              AWS IAM, Amplify, Lambda, API Gateway, DynamoDB,
+              CloudWatch, JavaScript, GitHub Actions
+            </p>
+
+            <a
+              class="project-link"
+              href="https://github.com/mikeharris23/cloud-resume-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View AWS Project →
+            </a>
+
+          </article>
+
+
+          <!-- IAM Project -->
+          <article class="project-card">
+
+            <div class="project-heading">
+
+              <span class="project-tag">
+                Microsoft Entra ID
+              </span>
+
+              <span class="status-badge">
+                Module 1 Complete
+              </span>
+
+            </div>
+
+            <h3>Enterprise IAM Lab</h3>
+
+            <p>
+              Designed an enterprise identity foundation for a fictional
+              financial-services organization using Microsoft Entra ID.
+            </p>
+
+            <ul>
+              <li>Created cloud-based employee identities</li>
+              <li>Configured departments and manager relationships</li>
+              <li>Built department and role-based security groups</li>
+              <li>Separated standard and privileged administrator accounts</li>
+              <li>Configured an administrative unit</li>
+              <li>Created an identity inventory and access matrix</li>
+              <li>Documented least-privilege access standards</li>
+            </ul>
+
+            <p class="technology-list">
+              <strong>Technologies:</strong>
+              Microsoft Entra ID, IAM, RBAC, Administrative Units,
+              Identity Governance, Least Privilege, Zero Trust
+            </p>
+
+            <a
+              class="project-link"
+              href="https://github.com/mikeharris23/microsoft-entra-iam-lab"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View IAM Project →
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section alternate-section">
+
+      <div class="container">
+
+        <p class="section-label">Certifications</p>
+
+        <h2>
+          Security and cloud credentials
+        </h2>
+
+        <div class="certification-grid">
+
+          <article class="certification-card">
+
+            <h3>CompTIA Security+</h3>
+
+            <p>
+              Cybersecurity operations, risk management, architecture,
+              identity security, security controls, and incident response.
+            </p>
+
+          </article>
+
+
+          <article class="certification-card">
+
+            <h3>AWS Certified Cloud Practitioner</h3>
+
+            <p>
+              AWS cloud services, architecture, security, compliance,
+              pricing, billing, and shared responsibility.
+            </p>
+
+          </article>
+
+
+          <article class="certification-card">
+
+            <h3>Microsoft SC-300</h3>
+
+            <p>
+              Microsoft Identity and Access Administrator certification
+              preparation currently in progress.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+      <div class="container narrow-container">
+
+        <p class="section-label">Contact</p>
+
+        <h2>Let’s connect</h2>
+
+        <p>
+          I am pursuing IAM Analyst, Identity Administrator, IAM Engineer,
+          cloud-security, and identity-governance opportunities where I can
+          apply enterprise experience and hands-on technical skills.
+        </p>
+
+        <div class="button-group centered-buttons">
+
+          <a
+            class="button primary-button"
+            href="mailto:mike_harris23@msn.com"
+          >
+            Email Mike
+          </a>
+
+          <a
+            class="button secondary-button"
+            href="https://www.linkedin.com/in/mharris7/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Connect on LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <p>
+        © 2026 Mike Harris. Built with AWS, GitHub, and serverless technology.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Keep your visitor counter script -->
   <script src="script.js"></script>
 
 </body>
