@@ -450,3 +450,59 @@ p {
   }
 
 }
+
+/* IAM Project Screenshot Gallery */
+
+.iam-gallery {
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid #233a55;
+}
+
+.iam-gallery h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.gallery-grid figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #233a55;
+  transition: transform 0.2s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.03);
+}
+
+.gallery-grid figcaption {
+  color: #b3c1d4;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+@media (max-width: 520px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid img {
+    height: auto;
+  }
+}
