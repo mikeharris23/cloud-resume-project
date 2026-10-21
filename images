@@ -1,1 +1,7 @@
-
+images/
+├── 01-entra-tenant.png
+├── 02-entra-users.png
+├── 03-security-groups.png
+├── 04-rbac-roles.png
+├── 05-administrative-units.png
+└── 06-manager-assignments.png
